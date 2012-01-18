@@ -13,6 +13,7 @@ namespace FSBokning.Controllers
 
         public ActionResult Index()
         {
+            ViewBag.Hej = "Hejsan hejsan!";
             return View();
         }
     }
