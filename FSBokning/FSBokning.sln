@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Web Developer Express 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSBokning.WebUI", "FSBokning\FSBokning.WebUI.csproj", "{8FBD9406-BCDD-4629-BA1A-A770B3876CCB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSBokning.UI.Web", "FSBokning\FSBokning.UI.Web.csproj", "{8FBD9406-BCDD-4629-BA1A-A770B3876CCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSBokning.Domain", "FSBokning.Domain\FSBokning.Domain.csproj", "{11A3B17A-9353-4EB9-81A3-39B1A58FBDE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSBokning.Repository.NHibernate", "FSBokning.Repository.NHibernate\FSBokning.Repository.NHibernate.csproj", "{80F5A5AE-ADA6-475B-8492-86108FA352C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +17,14 @@ Global
 		{8FBD9406-BCDD-4629-BA1A-A770B3876CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FBD9406-BCDD-4629-BA1A-A770B3876CCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FBD9406-BCDD-4629-BA1A-A770B3876CCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11A3B17A-9353-4EB9-81A3-39B1A58FBDE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11A3B17A-9353-4EB9-81A3-39B1A58FBDE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11A3B17A-9353-4EB9-81A3-39B1A58FBDE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11A3B17A-9353-4EB9-81A3-39B1A58FBDE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80F5A5AE-ADA6-475B-8492-86108FA352C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80F5A5AE-ADA6-475B-8492-86108FA352C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80F5A5AE-ADA6-475B-8492-86108FA352C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80F5A5AE-ADA6-475B-8492-86108FA352C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
