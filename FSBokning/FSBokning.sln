@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSBokning.Domain", "FSBokni
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSBokning.Repository.NHibernate", "FSBokning.Repository.NHibernate\FSBokning.Repository.NHibernate.csproj", "{80F5A5AE-ADA6-475B-8492-86108FA352C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSBokning.Services", "FSBokning.Services\FSBokning.Services.csproj", "{84309402-6C85-4549-84FA-A5F5F96E6F9B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{80F5A5AE-ADA6-475B-8492-86108FA352C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80F5A5AE-ADA6-475B-8492-86108FA352C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80F5A5AE-ADA6-475B-8492-86108FA352C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84309402-6C85-4549-84FA-A5F5F96E6F9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84309402-6C85-4549-84FA-A5F5F96E6F9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84309402-6C85-4549-84FA-A5F5F96E6F9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84309402-6C85-4549-84FA-A5F5F96E6F9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

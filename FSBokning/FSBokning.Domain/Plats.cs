@@ -7,5 +7,7 @@ namespace FSBokning.Domain
 {
     public class Plats
     {
+        public DateTime starttid { get; set; }
+        public DateTime sluttid { get; set; }
     }
 }
